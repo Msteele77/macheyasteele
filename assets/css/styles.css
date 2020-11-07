@@ -9,16 +9,23 @@ body {
     font-family: Lucida, sans-serif;
 }
 
+:root {
+    --first-color: #c88a81;
+    --second-color: #d5c3c7;
+}
+
 /*header section*/
 header {
     padding: 20 px 35 px;
-    background-color: lightgrey;
+    background-color: white;
     justify-content: space-between;
     display: flex;
     margin: 0;
     font-size: 22px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(245, 2, 2, 0.5);
+    z-index: 9999;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 header nav ul {
@@ -37,7 +44,7 @@ header nav ul li {
 }
 
 header a {
-    color: teal;
+    color: var(--first-color);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -46,21 +53,46 @@ header a {
 .hero {
     background-image: url("../images/hero-image.jpeg");
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
     display: flex;
-    background-position: 75%;
     flex-wrap: wrap;
-    height: auto;
-    max-width: 100%;
-    position: relative;
+    background-attachment: fixed;
+    height: 25vh;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
-h2 {
-    font-weight: bold;
-}
-
-.section-title {
+.subtitle-flex {
     display: flex;
-    float: left;
-    border-right: 2px solid;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    opacity: 0.75;
+}
+
+
+/*content section*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-1 {
+    min-height: 100px;
+}
+
+.flex-2 {
+    min-height: 100px;
+
+}
+
+.flex-3 {
+    min-height: 300px;
+}
+
+.content-section {
+    background-color: var(--second-color);
+    min-height: 200px;
 }
