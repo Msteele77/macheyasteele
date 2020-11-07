@@ -102,9 +102,8 @@ h1 {
 .content-section {
     display: flex;
     border-radius: 2px solid black;
-    min-height: 100px;
     margin: 10px;
-
+    justify-items: center;
 }
 
 .flex-column {
@@ -118,8 +117,6 @@ h1 {
 .flex-row {
     display: flex;
     align-items: flex-start;
-    align-items: center;
-    justify-content: center;
     padding: 50px;
 }
 
@@ -131,6 +128,7 @@ h1 {
     text-transform: uppercase;
     opacity: .75;
     font-size: 20px;
+    text-shadow: 2px 2px gray;
 }
 
 .content-section ul {
@@ -142,8 +140,8 @@ h1 {
 }
 
 .container p {
-    text-align: center;
     line-height: 1.7 px;
+    display: flex;
 }
 
 .contacts li {
@@ -153,9 +151,77 @@ h1 {
     min-width: 100px;
 }
 
+
 .flex-end {
     justify-content: space-between;
     display: flex;
     align-items: flex-end;
 }
 
+.firstp {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    color: var(--first-color);
+    background-color: var(--second-color);
+    text-align: center;
+    min-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer p {
+    background-color: lightgray;
+}
+
+
+
+
+
+/*grid container*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+    grid-template-rows: 200px 200px 200px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item {
+    min-width: 260px;
+    min-height: 180px;
+    border: 5px solid white;
+    align-items: center;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 535px;
+    height: 376px;
+}
+
+.item-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item-4 {
+    grid-row-start: 3;
+    grid-row-end: 4
+}
+
+.item-5 {
+    grid-row-start: 3;
+    grid-row-end: 4
+}
