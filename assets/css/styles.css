@@ -17,23 +17,25 @@ body {
 /*header section*/
 header {
     padding: 20 px 35 px;
-    background-color: white;
+    background-color: var(--second-color);
     justify-content: space-between;
     display: flex;
     margin: 0;
     font-size: 22px;
-    text-shadow: 0 0 10px rgba(245, 2, 2, 0.5);
     z-index: 9999;
     position: sticky;
     position: -webkit-sticky;
+    opacity: .75;
 }
 
 header nav ul {
+    margin: 15px;
+    background-color: var(--first-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
+    align-items: flex-end;
 }
 
 header nav ul li {
@@ -44,9 +46,15 @@ header nav ul li {
 }
 
 header a {
-    color: var(--first-color);
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+h1 {
+    background-color: var(--first-color);
+    display: flex;
+    margin: 15px;
 }
 
 /*hero section*/
@@ -67,8 +75,9 @@ header a {
     padding: 10px;
     color:white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0.75;
+    background-color: var(--first-color);
 }
 
 
@@ -95,4 +104,12 @@ header a {
 .content-section {
     background-color: var(--second-color);
     min-height: 200px;
+}
+
+.section-title {
+    color: white;
+    text-transform: uppercase;
+    opacity: .75;
+    padding: 10px;
+    
 }
