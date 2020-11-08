@@ -177,7 +177,10 @@ footer p {
 }
 
 
-
+.content-section {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 
 /*grid container*/
@@ -185,7 +188,7 @@ footer p {
 .grid-container {
     display: grid;
     grid-template-columns: 275px 275px 275px 275px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
     justify-items: center;
     align-items: center;
 }
