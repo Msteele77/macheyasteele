@@ -27,9 +27,6 @@ header {
     display: flex;
     margin: 0;
     font-size: 22px;
-    z-index: 9999;
-    position: sticky;
-    position: -webkit-sticky;
     opacity: .75;
 }
 
@@ -187,25 +184,50 @@ footer p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 275px 275px 275px 275px;
-    grid-template-rows: 200px 200px;
-    justify-items: center;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 180px 180px;
     align-items: center;
+    justify-items: space-around;
+    grid-gap: 10px;
 }
 
 .grid-item {
     min-width: 260px;
     min-height: 180px;
-    border: 5px solid white;
+    border: 4px solid white;
+    padding: 12px;
+    position: relative;
 }
+
+.item-1:hover {
+    opacity: .70;
+  }
+
+  .item-2:hover {
+    opacity: .70;
+  }
+
+  .item-3:hover {
+    opacity: .70;
+  }
+
+  .item-4:hover {
+    opacity: .70;
+  }
+
+  .item-5:hover {
+    opacity: .70;
+  }
 
 .item-1 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    width: 535px;
-    height: 182px;
+    
+    background-size: cover;
+    background-image: url("../images/item1-image.png");
+    opacity: .50;
 }
 
 .item-2 {
@@ -213,15 +235,16 @@ footer p {
     grid-column-end: 4;
     background-image: url("../images/item2-image.png");
     background-size: cover;
-    align-items: center;
+    opacity: .50;
 }
-
-
 
 .item-3 {
     grid-column-start: 4;
     grid-column-end: 5;
     align-items: center;
+    background-image: url("../images/item3-image.jpeg");
+    background-size: cover;
+    opacity: .50;
 }
 
 .item-4 {
@@ -229,10 +252,27 @@ footer p {
     grid-row-end: 3;
     align-items: center;
     grid-column-start: 2;
+    background-size: cover;
+    background-image: url("../images/item4-image.jpeg");
+    opacity: .50;
 }
 
 .item-5 {
     grid-column-start: 1;
     grid-row-end: 3;
     align-items: center;
+    background-image: url("../images/item5-image.jpeg");
+    background-size: cover;
+    opacity: .50;
 }
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/*@media screen and (max-width: 575px)*/
