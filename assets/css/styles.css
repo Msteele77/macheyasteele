@@ -194,34 +194,42 @@ footer p {
     min-width: 260px;
     min-height: 180px;
     border: 5px solid white;
-    align-items: center;
 }
 
 .item-1 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
     width: 535px;
-    height: 376px;
+    height: 182px;
 }
 
 .item-2 {
     grid-column-start: 3;
     grid-column-end: 4;
+    background-image: url("../images/item2-image.png");
+    background-size: cover;
+    align-items: center;
 }
+
+
 
 .item-3 {
     grid-column-start: 4;
     grid-column-end: 5;
+    align-items: center;
 }
 
 .item-4 {
-    grid-row-start: 3;
-    grid-row-end: 4
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+    grid-column-start: 2;
 }
 
 .item-5 {
-    grid-row-start: 3;
-    grid-row-end: 4
+    grid-column-start: 1;
+    grid-row-end: 3;
+    align-items: center;
 }
