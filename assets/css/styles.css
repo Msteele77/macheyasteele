@@ -46,7 +46,7 @@ header nav ul {
 header nav ul li {
     font-size: 20px;
     padding: 10px 15px;
-    font-weight: ligher;
+    font-weight: lighter;
     text-decoration: underline;
 }
 
@@ -101,11 +101,12 @@ h1 {
     display: flex;
     margin: 10px;
     justify-items: center;
+    flex-wrap: wrap;
 }
 
 .flex-column {
     display: flex;
-    flex-wrap: wrap;
+    
     align-items: center;
     justify-content: center;
     border-right: 2px solid var(--first-color);
@@ -115,7 +116,7 @@ h1 {
 .flex-row {
     display: flex;
     padding: 50px;
-   flex-wrap: wrap;
+   
 }
 
 .section-title {
@@ -126,12 +127,9 @@ h1 {
     text-shadow: 2px 2px gray;
 }
 
-/*ABOUT MESECTION*/
+/*ABOUT ME SECTION*/
 
-.container p {
-    line-height: 1.7 px;
-    display: flex;
-}
+
 
 /*PROJECTS SECTION*/
 
@@ -157,7 +155,6 @@ h1 {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    
     background-size: cover;
     background-image: url("../images/item1-image.png");
     opacity: .50;
@@ -258,10 +255,18 @@ footer p {
     background-color: lightgray;
 }
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
 
-
-
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+   
+    /* this will be applied on any screen smaller than 980px */
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-/*@media screen and (max-width: 575px)*/
+
+
+@media screen and (max-width: 575px) {
+
+}
