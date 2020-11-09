@@ -273,7 +273,7 @@ footer p {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
  /* this will be applied on any screen smaller than 980px */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1215px) {
 
  .grid-item {
      min-width: 140px;
