@@ -339,63 +339,50 @@ header {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
 
-    .subtitle-flex {
-        padding: 16px;
-        font-size: 20px;
+    h1 {
+        font-size: 34px;
+        margin: 4px;
     }
 
-    .section-title {
-        font-size: 20px;
+    header nav ul {
+        margin: 3px;
+    }
+
+    header nav ul li {
+        font-size: 14px;
+    }
+
+    .subtitle-flex {
+        padding: 16px;
+        font-size: 18px;
+        margin: 14px;
+    }
+
+    .content-section {
+        margin: 0px;
     }
 
     .flex-row {
-        padding: 8px;
-        display: inline-block;
-    }
-
-    .grid-wrapper {
         padding: 10px;
     }
 
     .flex-column {
-        min-width: 9%;
-        border: none;
-        align-items: unset;
-        padding: 2px;
+        margin: 10px;
+        justify-content: unset;
     }
 
-    .header {
-        max-width: 100%;
+    .grid-item {
+        min-width: 98px;
     }
 
-    .hero {
-        width: 88%;
-        padding: 0px;
+    .section-title {
+        font-size: 14px;
     }
 
-    .footer {
-        max-width: 88%;
-    }
-
-    .footer p {
-        max-width: 88%;
+    .project-heading {
+        font-size: 14px;
     }
 }
