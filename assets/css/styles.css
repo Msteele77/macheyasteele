@@ -88,7 +88,6 @@ h1 {
     background-color: var(--first-color);
 }
 
-
 /*GENERAL CONTENTS SECITON*/
 
 .container {
@@ -121,7 +120,6 @@ h1 {
     flex-wrap: wrap;
     max-width: 65%;
     align-content: center;
-
 }
 
 .section-title {
@@ -132,17 +130,13 @@ h1 {
     text-shadow: 2px 2px gray;
 }
 
-/*ABOUT ME SECTION*/
-
-
-
 /*PROJECTS SECTION*/
 
 .grid-wrapper {
     display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  padding: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px;
   
 }
 
@@ -218,23 +212,23 @@ h1 {
 
 .item-1:hover {
     opacity: .70;
-  }
+}
 
-  .item-2:hover {
+.item-2:hover {
     opacity: .70;
-  }
+}
 
-  .item-3:hover {
+.item-3:hover {
     opacity: .70;
-  }
+}
 
-  .item-4:hover {
+.item-4:hover {
     opacity: .70;
-  }
+}
 
-  .item-5:hover {
+.item-5:hover {
     opacity: .70;
-  }
+}
 
 /*CONTACT ME SECTION*/
 
@@ -269,15 +263,13 @@ footer p {
 }
 
 
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
- /* this will be applied on any screen smaller than 980px */
 
 @media screen and (max-width: 1215px) {
 
- .grid-item {
-     min-width: 140px;
- }
+.grid-item {
+    min-width: 140px;
+}
 
 .subtitle-flex {
     padding: 20px;
@@ -300,89 +292,85 @@ header {
 
 .project-heading {
     font-size: 24px;
-}
-}
-
+}}
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
 
-    .flex-row {
-        max-width: unset;
-    }
-
-    .flex-column {
-        margin: 10px;
-        justify-content: unset;
-    }
-
-    .project-heading {
-        font-size: 18px;
-    }
-
-    .section-title {
-        font-size: 16px;
-    }
-
-    .content-section {
-        margin: 0px;
-    }
-
-    .subtitle-flex {
-        padding: 18px;
-        font-size: 22px;
-        margin: 16px;
-    }
-
-    header {
-        padding: 10px;
-    }
+.flex-row {
+    max-width: unset;
 }
+
+.flex-column {
+    margin: 10px;
+    justify-content: unset;
+}
+
+.project-heading {
+    font-size: 18px;
+}
+
+.section-title {
+    font-size: 16px;
+}
+
+.content-section {
+    margin: 0px;
+}
+
+.subtitle-flex {
+      padding: 18px;
+     font-size: 22px;
+      margin: 16px;
+}
+
+header {
+    padding: 10px;
+}}
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
 
-    h1 {
-        font-size: 34px;
-        margin: 4px;
-    }
-
-    header nav ul {
-        margin: 3px;
-    }
-
-    header nav ul li {
-        font-size: 14px;
-    }
-
-    .subtitle-flex {
-        padding: 16px;
-        font-size: 18px;
-        margin: 14px;
-    }
-
-    .content-section {
-        margin: 0px;
-    }
-
-    .flex-row {
-        padding: 10px;
-    }
-
-    .flex-column {
-        margin: 10px;
-        justify-content: unset;
-    }
-
-    .grid-item {
-        min-width: 98px;
-    }
-
-    .section-title {
-        font-size: 14px;
-    }
-
-    .project-heading {
-        font-size: 14px;
-    }
+h1 {
+    font-size: 34px;
+    margin: 4px;
 }
+
+header nav ul {
+    margin: 3px;
+}
+
+header nav ul li {
+    font-size: 14px;
+}
+
+.subtitle-flex {
+    padding: 16px;
+    font-size: 18px;
+    margin: 14px;
+}
+
+.content-section {
+    margin: 0px;
+}
+
+.flex-row {
+    padding: 10px;
+}
+
+.flex-column {
+    margin: 10px;
+    justify-content: unset;
+}
+
+.grid-item {
+    min-width: 98px;
+}
+
+.section-title {
+    font-size: 14px;
+}
+
+.project-heading {
+    font-size: 14px;
+}}
