@@ -179,7 +179,7 @@ h1 {
     grid-column-start: 4;
     grid-column-end: 5;
     align-items: center;
-    background-image: url("../images/item3-image.jpeg");
+    background-image: url("../images/prepper.png");
     background-size: cover;
     opacity: .50;
 }
